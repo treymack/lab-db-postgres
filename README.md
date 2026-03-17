@@ -10,12 +10,12 @@ PostgreSQL experiments. Run in VSCode probably.
 - [ ] Connect with `psql` and explore `\d`, `\dt`, `\di` meta-commands
 - [ ] Use `EXPLAIN ANALYZE` to read query plans
 
-### Indexing
+### Tooling
 
-- [ ] B-tree vs. Hash vs. GIN vs. GiST index types
-- [ ] Partial indexes (`CREATE INDEX ... WHERE ...`)
-- [ ] Expression indexes (`CREATE INDEX ON t (lower(col))`)
-- [ ] Index-only scans and covering indexes (`INCLUDE`)
+- [ ] `pgAdmin` or `DBeaver` as a GUI
+- [ ] `flyway` or `sqitch` for schema migrations
+- [ ] `pgbench` for load testing
+- [ ] `pg_dump` / `pg_restore` backup strategies
 
 ### Data Modeling
 
@@ -23,6 +23,13 @@ PostgreSQL experiments. Run in VSCode probably.
 - [ ] JSONB columns — storage, operators, indexing with GIN
 - [ ] Arrays and the `unnest()` function
 - [ ] Full-text search with `tsvector` / `tsquery`
+
+### Indexing
+
+- [ ] B-tree vs. Hash vs. GIN vs. GiST index types
+- [ ] Partial indexes (`CREATE INDEX ... WHERE ...`)
+- [ ] Expression indexes (`CREATE INDEX ON t (lower(col))`)
+- [ ] Index-only scans and covering indexes (`INCLUDE`)
 
 ### Advanced Queries
 
@@ -38,12 +45,6 @@ PostgreSQL experiments. Run in VSCode probably.
 - [ ] Connection pooling with PgBouncer
 - [ ] `work_mem`, `shared_buffers`, `effective_cache_size` tuning
 
-### Replication & HA
-
-- [ ] Streaming replication (primary + standby)
-- [ ] Logical replication and publication/subscription
-- [ ] Failover with Patroni or pg_auto_failover
-
 ### Extensions
 
 - [ ] `pgvector` — vector similarity search
@@ -52,9 +53,8 @@ PostgreSQL experiments. Run in VSCode probably.
 - [ ] `timescaledb` — time-series workloads
 - [ ] `pg_partman` — automated partition management
 
-### Tooling
+### Replication & HA
 
-- [ ] `pgAdmin` or `DBeaver` as a GUI
-- [ ] `pgbench` for load testing
-- [ ] `pg_dump` / `pg_restore` backup strategies
-- [ ] `flyway` or `sqitch` for schema migrations
+- [ ] Streaming replication (primary + standby)
+- [ ] Logical replication and publication/subscription
+- [ ] Failover with Patroni or pg_auto_failover
