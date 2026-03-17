@@ -1,0 +1,17 @@
+{
+  "version": "0.2",
+  "words": [
+    "Autovacuum",
+    "geospatial",
+    "NTILE",
+    "partman",
+    "Patroni",
+    "pgbench",
+    "pgvector",
+    "psql",
+    "sqitch",
+    "timescaledb",
+    "tsquery",
+    "tsvector"
+  ]
+}
