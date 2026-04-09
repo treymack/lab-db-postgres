@@ -17,6 +17,28 @@ PostgreSQL experiments. Run in VSCode probably.
 - [ ] `pgbench` for load testing
 - [ ] `pg_dump` / `pg_restore` backup strategies
 
+### Core SQL
+
+- [ ] SELECT basics: columns, aliases, expressions, DISTINCT
+- [ ] WHERE clause: comparison operators, AND/OR/NOT, BETWEEN, IN, LIKE, IS NULL
+- [ ] ORDER BY and LIMIT with OFFSET
+- [ ] Aggregate functions: COUNT, SUM, AVG, MIN, MAX
+- [ ] GROUP BY and HAVING clauses
+- [ ] Basic JOINs: INNER, LEFT, RIGHT, FULL OUTER, self-joins
+- [ ] Set operations: UNION, INTERSECT, EXCEPT
+- [ ] INSERT: basic, multiple rows, SELECT, RETURNING, ON CONFLICT
+- [ ] UPDATE: basic, multiple columns, with expressions/subqueries, RETURNING
+- [ ] DELETE: basic, with subqueries, RETURNING, TRUNCATE
+- [ ] CREATE TABLE: basic table creation with PRIMARY KEY and common constraints
+
+### Schema Management
+
+- [ ] ALTER TABLE: add/modify/drop columns
+- [ ] Rename tables and columns
+- [ ] DROP TABLE, views, and indexes
+- [ ] Views and materialized views
+- [ ] Transactions: BEGIN, COMMIT, ROLLBACK, SAVEPOINT, isolation levels
+
 ### Data Modeling
 
 - [ ] Table inheritance and partitioning (range, list, hash)
